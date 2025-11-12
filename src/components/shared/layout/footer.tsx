@@ -55,10 +55,10 @@ const Footer = () => {
                   Company
                 </h4>
                 <div className="flex flex-col gap-[8px] text-[14px] md:text-[16px] text-gray-400">
-                  <Link href={"/construction"} className="hover:text-black">About</Link>
-                  <Link href={"/construction"} className="hover:text-black">Features</Link>
-                  <Link href={"/construction"} className="hover:text-black">Works</Link>
-                  <Link href={"/construction"} className="hover:text-black">Career</Link>
+                  <Link href={"/contruction"} className="hover:text-black">About</Link>
+                  <Link href={"/contruction"} className="hover:text-black">Features</Link>
+                  <Link href={"/contruction"} className="hover:text-black">Works</Link>
+                  <Link href={"/contruction"} className="hover:text-black">Career</Link>
                 </div>
               </div>
               <div className="flex flex-col gap-[16px] max-w-[149px] w-full">
@@ -66,10 +66,10 @@ const Footer = () => {
                   HELP
                 </h4>
                 <div className="flex flex-col gap-[8px] text-[14px] md:text-[16px] text-gray-400">
-                  <Link href={"/construction"} className="hover:text-black">Customer Support</Link>
-                  <Link href={"/construction"} className="hover:text-black">Delivery Detail</Link>
-                  <Link href={"/construction"} className="hover:text-black">Terms & Conditions</Link>
-                  <Link href={"/construction"} className="hover:text-black">Privacy Policy</Link>
+                  <Link href={"/contruction"} className="hover:text-black">Customer Support</Link>
+                  <Link href={"/contruction"} className="hover:text-black">Delivery Detail</Link>
+                  <Link href={"/contruction"} className="hover:text-black">Terms & Conditions</Link>
+                  <Link href={"/contruction"} className="hover:text-black">Privacy Policy</Link>
                 </div>
               </div>
               <div className="flex flex-col gap-[16px] max-w-[149px] w-full">
@@ -77,10 +77,10 @@ const Footer = () => {
                   FAQ
                 </h4>
                 <div className="flex flex-col gap-[8px] text-[14px] md:text-[16px] text-gray-400">
-                  <Link href={"/construction"} className="hover:text-black">Account</Link>
-                  <Link href={"/construction"} className="hover:text-black">Manage Deliveries</Link>
-                  <Link href={"/construction"} className="hover:text-black">Orders</Link>
-                  <Link href={"/construction"} className="hover:text-black">Payments</Link>
+                  <Link href={"/contruction"} className="hover:text-black">Account</Link>
+                  <Link href={"/contruction"} className="hover:text-black">Manage Deliveries</Link>
+                  <Link href={"/contruction"} className="hover:text-black">Orders</Link>
+                  <Link href={"/contruction"} className="hover:text-black">Payments</Link>
                 </div>
               </div>
               <div className="flex flex-col gap-[16px] max-w-[149px] w-full">
@@ -88,10 +88,10 @@ const Footer = () => {
                   Resources
                 </h4>
                 <div className="flex flex-col gap-[8px] text-[14px] md:text-[16px] text-gray-400">
-                  <Link href={"/construction"} className="hover:text-black">Free eBooks</Link>
-                  <Link href={"/construction"} className="hover:text-black">Development Tutorial</Link>
-                  <Link href={"/construction"} className="hover:text-black">How to-Blog</Link>
-                  <Link href={"/construction"} className="hover:text-black">Youtube Playlist</Link>
+                  <Link href={"/contruction"} className="hover:text-black">Free eBooks</Link>
+                  <Link href={"/contruction"} className="hover:text-black">Development Tutorial</Link>
+                  <Link href={"/contruction"} className="hover:text-black">How to-Blog</Link>
+                  <Link href={"/contruction"} className="hover:text-black">Youtube Playlist</Link>
                 </div>
               </div>
             </div>

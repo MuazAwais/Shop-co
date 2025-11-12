@@ -26,8 +26,8 @@ const SideBar = () => {
             <ul>
                 <li className="py-3 border-b text-[14px] font-semibold px-3" onClick={closerNavbar}><Link href={"/"}>Home</Link></li>
                 <li className="py-3 border-b text-[14px] font-semibold px-3" onClick={closerNavbar}><Link href={"/shop"}>On Sale</Link></li>
-                <li className="py-3 border-b text-[14px] font-semibold px-3" onClick={closerNavbar}><Link href={"/construction"}>New Arrivals</Link></li>
-                <li className="py-3 text-[14px] font-semibold px-3" onClick={closerNavbar}><Link href={"/construction"}>Brands</Link></li>
+                <li className="py-3 border-b text-[14px] font-semibold px-3" onClick={closerNavbar}><Link href={"/contruction"}>New Arrivals</Link></li>
+                <li className="py-3 text-[14px] font-semibold px-3" onClick={closerNavbar}><Link href={"/contruction"}>Brands</Link></li>
             </ul>
         </div>
     </div>

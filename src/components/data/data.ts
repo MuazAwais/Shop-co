@@ -151,7 +151,7 @@ export const menClothingData: ProductData[] = [
           "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=800",
           "https://images.unsplash.com/photo-1523205771623-e0faa4d2813d?w=800"
         ],
-        detail: "Premium quality denim jacket with a classic fit. Features button closure, chest pockets, and durable construction. Perfect for casual everyday wear.",
+        detail: "Premium quality denim jacket with a classic fit. Features button closure, chest pockets, and durable contruction. Perfect for casual everyday wear.",
         sizes: ["Small", "Medium", "Large", "X-Large"]
       },
       {
@@ -663,7 +663,7 @@ export const menClothingData: ProductData[] = [
           "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?w=800",
           "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800"
         ],
-        detail: "Versatile utility jacket with multiple pockets. Features button front, adjustable waist, and durable cotton canvas construction.",
+        detail: "Versatile utility jacket with multiple pockets. Features button front, adjustable waist, and durable cotton canvas contruction.",
         sizes: ["Small", "Medium", "Large", "X-Large"]
       },
       {

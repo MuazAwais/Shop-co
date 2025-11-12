@@ -19,8 +19,8 @@ const Navbar = () => {
             <ul className='flex items-center gap-[24px] w-full'>
                 <li className='hover:font-bold'><Link href={'/'}>Home</Link></li>
                 <li className='hover:font-bold'><Link href={'/shop'}>On Sale</Link></li>
-                <li className='hover:font-bold'><Link href={'/construction'}>New Arrivals</Link></li>
-                <li className='hover:font-bold'><Link href={'/construction'}>Brands</Link></li>
+                <li className='hover:font-bold'><Link href={'/contruction'}>New Arrivals</Link></li>
+                <li className='hover:font-bold'><Link href={'/contruction'}>Brands</Link></li>
             </ul>
         </div>
 
