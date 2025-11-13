@@ -5,7 +5,6 @@ import { FiMinus } from "react-icons/fi";
 import Star from "@/components/ui/star";
 import { useParams } from "next/navigation";
 import React, { useState } from "react";
-import { stringify } from "postcss";
 import ProductCard from "@/components/ui/productCard";
 
 const ProductPage = () => {

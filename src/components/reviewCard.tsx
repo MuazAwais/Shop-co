@@ -1,12 +1,14 @@
 "use client";
 
 import { FaCheckCircle } from "react-icons/fa";
-import Star from "../components/ui/star";
+import Star from "./ui/star";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
+
+
 
 const ReviewCard = () => {
   const reviews = [
@@ -61,22 +63,22 @@ const ReviewCard = () => {
       }}
       className=""
     >
-      {reviews.map((reviews, index) => (
+      {reviews.map((review, index) => (
         <SwiperSlide
           key={index}
           className="max-w-[395px] md:max-w-[400px] w-full py-[24px] px-[24px] flex flex-col gap-[12px] border border-gray-300 rounded-2xl overflow-hidden"
         >
-          <Star stars={reviews.rating} />
+          <Star stars={review.rating} />
           <div className="flex items-center gap-2">
             <h4 className="text-[16px] md:text-[20px] font-black">
-              {reviews?.name}
+              {review?.name}
             </h4>
             <div className="text-green-600">
               <FaCheckCircle />
             </div>
           </div>
           <div className="w-full text-gray-400 text-[14px] md:text-[16px]">
-            {reviews?.review}
+            {review?.review}
           </div>
         </SwiperSlide>
       ))}
