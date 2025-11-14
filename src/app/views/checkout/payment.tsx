@@ -46,7 +46,7 @@ const PaymentCard = () => {
       <div className="w-full max-w-md mx-auto border-2 rounded-xl p-8 bg-white mt-10">
       <form onSubmit={formik.handleSubmit}>
         <h2 className="font-inter font-bold mb-6 text-[24px]">Payment Detail</h2>
-        <div className="mb-4">
+        <div className="mb-4 relative">
           <label htmlFor="nameOnCard" className="block text-gray-400">Name on Card</label>
           <input
             id="nameOnCard"
@@ -58,10 +58,10 @@ const PaymentCard = () => {
             value={formik.values.nameOnCard}
           />
           {formik.touched.nameOnCard && formik.errors.nameOnCard ? (
-            <div className="text-red-600 text-xs mt-1">{formik.errors.nameOnCard}</div>
+            <div className="text-red-600 text-xs mt-1 absolute bottom-[-16px] left-1">{formik.errors.nameOnCard}</div>
           ) : null}
         </div>
-        <div className="mb-4">
+        <div className="mb-4 relative">
           <label htmlFor="cardNumber" className="block text-gray-400">Card Number</label>
           <input
             id="cardNumber"
@@ -74,7 +74,7 @@ const PaymentCard = () => {
             maxLength={16}
           />
           {formik.touched.cardNumber && formik.errors.cardNumber ? (
-            <div className="text-red-600 text-xs mt-1">{formik.errors.cardNumber}</div>
+            <div className="text-red-600 text-xs mt-1 absolute bottom-[-16px] left-1">{formik.errors.cardNumber}</div>
           ) : null}
         </div>
         <div className="mb-4 flex gap-4">
@@ -107,7 +107,7 @@ const PaymentCard = () => {
             />
           </div>
         </div>
-        <div className="mb-4">
+        <div className="mb-4 relative">
           <label htmlFor="cvv" className="block text-gray-400 ">CVV</label>
           <input
             id="cvv"
@@ -120,12 +120,12 @@ const PaymentCard = () => {
             maxLength={4}
           />
           {formik.touched.cvv && formik.errors.cvv ? (
-            <div className="text-red-600 text-xs mt-1">{formik.errors.cvv}</div>
+            <div className="text-red-600 text-xs mt-1 absolute bottom-[-16px] left-1">{formik.errors.cvv}</div>
           ) : null}
         </div>
         <button
           type="submit"
-          className="w-full bg-gray-950 text-white py-2 px-4 rounded-full hover:bg-white hover:text-black hover:border-black hover:border transition-all duration-300 ease-in-out"
+          className="w-full bg-gray-950 mt-2 text-white py-2 px-4 rounded-full hover:bg-white hover:text-black hover:border-black hover:border transition-all duration-300 ease-in-out"
         >
           Pay Now
         </button>

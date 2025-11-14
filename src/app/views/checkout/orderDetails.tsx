@@ -110,7 +110,7 @@ const OrderDetail = () => {
         <h2 className="font-inter font-bold mb-6 text-[24px]">
           Shipping Information
         </h2>
-        <div className="mb-4">
+        <div className="mb-4 relative">
           <label htmlFor="name" className="block text-gray-400">
             Name
           </label>
@@ -124,12 +124,12 @@ const OrderDetail = () => {
             value={formik.values.name}
           />
           {formik.touched.name && formik.errors.name ? (
-            <div className="text-red-600 text-xs mt-1">
+            <div className="text-red-600 text-xs mt-1 absolute bottom-[-16px] left-1">
               {formik.errors.name}
             </div>
           ) : null}
         </div>
-        <div className="mb-4">
+        <div className="mb-4 relative">
           <label htmlFor="email" className="block text-gray-400">
             Email
           </label>
@@ -143,12 +143,12 @@ const OrderDetail = () => {
             value={formik.values.email}
           />
           {formik.touched.email && formik.errors.email ? (
-            <div className="text-red-600 text-xs mt-1">
+            <div className="text-red-600 text-xs mt-1 absolute bottom-[-16px] left-1">
               {formik.errors.email}
             </div>
           ) : null}
         </div>
-        <div className="mb-4">
+        <div className="mb-4 relative">
           <label htmlFor="phone" className="block text-gray-400">
             Phone
           </label>
@@ -162,12 +162,12 @@ const OrderDetail = () => {
             value={formik.values.phone}
           />
           {formik.touched.phone && formik.errors.phone ? (
-            <div className="text-red-600 text-xs mt-1">
+            <div className="text-red-600 text-xs mt-1 absolute bottom-[-16px] left-1">
               {formik.errors.phone}
             </div>
           ) : null}
         </div>
-        <div className="mb-4">
+        <div className="mb-4 relative">
           <label htmlFor="address" className="block text-gray-400">
             Address
           </label>
@@ -180,12 +180,12 @@ const OrderDetail = () => {
             value={formik.values.address}
           />
           {formik.touched.address && formik.errors.address ? (
-            <div className="text-red-600 text-xs mt-1">
+            <div className="text-red-600 text-xs mt-1 absolute bottom-[-16px] left-1">
               {formik.errors.address}
             </div>
           ) : null}
         </div>
-        <div className="mb-4">
+        <div className="mb-4 relative">
           <label htmlFor="note" className="block text-gray-400">
             Note (optional)
           </label>
@@ -199,7 +199,7 @@ const OrderDetail = () => {
             value={formik.values.note}
           />
           {formik.touched.note && formik.errors.note ? (
-            <div className="text-red-600 text-xs mt-1">
+            <div className="text-red-600 text-xs mt-1 absolute bottom-[-16px] left-1">
               {formik.errors.note}
             </div>
           ) : null}
